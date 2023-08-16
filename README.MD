@@ -49,3 +49,11 @@ Phar created successfully!
 
 Process finished with exit code 0
 ```
+
+## Extra
+
+- You can modify the ``PluginBuilder.php`` class to compile your plugin files the way you want.
+
+## For Developers
+
+If there are bugs, errors, or you want to suggest something, you can report it, or make a pull request.
