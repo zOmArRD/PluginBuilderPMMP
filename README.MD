@@ -1,5 +1,5 @@
 
-# PocketMineForms
+# PluginBuilder for PMMP
 
 The ultimate API for compiling your PocketMineMP plugins
 
