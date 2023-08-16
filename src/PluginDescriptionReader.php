@@ -12,8 +12,17 @@ namespace zOmArRD\Builder;
 
 use zOmArRD\Builder\Exception\PluginBuilderException;
 
-class PluginDescriptionReader {
-    public static function read(string $pluginPath): array {
+class PluginDescriptionReader
+{
+    /**
+     * Read plugin.yml
+     *
+     * @param string $pluginPath
+     *
+     * @return array
+     */
+    public static function read(string $pluginPath): array
+    {
         $pluginDescription = yaml_parse_file($pluginPath . '/plugin.yml');
 
         if ($pluginDescription === false) {

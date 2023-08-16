@@ -27,6 +27,11 @@ class PluginFileIterator extends FilterIterator
         $this->filter = $filter;
     }
 
+    /**
+     * Accepts the file if it is a file and passes the filter
+     *
+     * @return bool
+     */
     final public function accept(): bool
     {
         $current = $this->getInnerIterator()->current();
