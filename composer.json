@@ -1,0 +1,25 @@
+{
+  "name": "zomarrd/pluginbuilderpmmp",
+  "description": "Create a .phar of your PocketMine-MP plugin",
+  "keywords": [
+    "pocketmine",
+    "pocketmine-mp",
+    "plugin",
+    "form",
+    "api",
+    "pocketmine-forms",
+    "zomarrd"
+  ],
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zOmArRD",
+      "email": "dev@zomarrd.me"
+    }
+  ],
+  "require-dev": {
+    "phpstan/phpstan": "1.11.x-dev",
+    "thecodingmachine/phpstan-strict-rules": "^1.0@dev"
+  }
+}
