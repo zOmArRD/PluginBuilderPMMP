@@ -1,7 +1,7 @@
 
-# PocketMineForms
+# PluginBuilder for PMMP
 
-The Ultimate API for Creating Forms in PocketMine-MP
+The ultimate API for compiling your PocketMineMP plugins
 
 
 ## Installation
