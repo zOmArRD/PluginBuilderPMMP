@@ -12,4 +12,4 @@ namespace zOmArRD\Builder\Exception;
 
 use RuntimeException;
 
-class PluginBuilderException extends RuntimeException { }
+final class PluginBuilderException extends RuntimeException { }
