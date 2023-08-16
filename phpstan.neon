@@ -1,0 +1,11 @@
+includes:
+    - vendor/thecodingmachine/phpstan-strict-rules/phpstan-strict-rules.neon
+
+parameters:
+    level: max
+    paths:
+        - src/
+    excludePaths:
+            analyse:
+                - vendor
+    checkMissingIterableValueType: false

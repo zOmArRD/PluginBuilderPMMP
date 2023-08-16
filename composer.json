@@ -18,8 +18,16 @@
       "email": "dev@zomarrd.me"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "zOmArRD\\Builder\\": "src/"
+    }
+  },
   "require-dev": {
     "phpstan/phpstan": "1.11.x-dev",
     "thecodingmachine/phpstan-strict-rules": "^1.0@dev"
+  },
+  "require": {
+    "ext-yaml": "*"
   }
 }
