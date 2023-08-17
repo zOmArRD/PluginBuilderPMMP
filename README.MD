@@ -14,7 +14,7 @@ composer require zomarrd/pluginbuilderpmmp
 
 ## Usage/Examples
 
-1- Create a ``build.php`` file in the root folder of your plugin and add the following code.
+1- Create a ``build.php`` file in the root/build/ folder of your plugin and add the following code.
 
 <br>
 
