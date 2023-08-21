@@ -20,10 +20,10 @@ use zOmArRD\Builder\Interface\FileIteratorFilter;
 class PluginBuilder
 {
 
-    protected string $pluginPath, $outputPath;
-    protected array $pluginDescription;
+    private string $pluginPath, $outputPath;
+    private array $pluginDescription;
 
-    protected function __construct(string $pluginPath)
+    public function __construct(string $pluginPath)
     {
         // Set error reporting to the max
         error_reporting(E_ALL | E_STRICT);
