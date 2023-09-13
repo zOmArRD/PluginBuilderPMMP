@@ -13,7 +13,9 @@ composer require zomarrd/pluginbuilderpmmp
 ## Usage/Examples
 
 1- Create a ``build.php`` file in the pluginPath/build/ and add the following code.
+
 ![img.png](assets/img.png)
+
 
 #### CODE EXAMPLE
 
