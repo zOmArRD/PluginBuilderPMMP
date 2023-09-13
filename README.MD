@@ -1,8 +1,6 @@
-
 # PluginBuilder for PMMP
 
 The ultimate API for compiling your PocketMineMP plugins
-
 
 ## Installation
 
@@ -14,9 +12,10 @@ composer require zomarrd/pluginbuilderpmmp
 
 ## Usage/Examples
 
-1- Create a ``build.php`` file in the root/build/ folder of your plugin and add the following code.
+1- Create a ``build.php`` file in the pluginPath/build/ and add the following code.
 
-<br>
+![img.png](assets/img.png)
+
 
 #### CODE EXAMPLE
 
@@ -36,10 +35,10 @@ $pluginBuilder = new PluginBuilder(dirname(__DIR__));
 $pluginBuilder->build();
 ```
 
-
 <br>
 
 #### CONSOLE OUTPUT
+
 ```shell
 Creating Phar file...
 Added 2691 files to Phar
